@@ -15,8 +15,9 @@
         position: absolute;
         left: 44%;
     }
-    .color-nav{
-        background-color: brown;
+    #nav-color{
+        background-color: transparent;
+        color: white;
     }
 }
 
@@ -76,5 +77,4 @@
         left: 55%;
     }
 }
-
 

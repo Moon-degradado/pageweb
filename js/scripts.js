@@ -35,10 +35,16 @@
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-scrolled");
+      $("#color-menu").addClass("navbar-toggler-icon-oscuro");
+      $("#color-menu").removeClass("navbar-toggler-icon-white");
     } else {
       $("#mainNav").removeClass("navbar-scrolled");
+      $("#color-menu").removeClass("navbar-toggler-icon-oscuro");
+      $("#color-menu").addClass("navbar-toggler-icon-white");
     }
   };
+  //Color Menu Responsive
+  
   // Collapse now if page is not at top
   navbarCollapse();
   // Collapse the navbar when page is scrolled
