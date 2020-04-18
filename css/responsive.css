@@ -90,6 +90,64 @@
         background-color: transparent !important;
         color: white;
     }
+    .direccion{
+        margin-right: 15% !important;
+    }
+    .posicion-header{
+        margin-top: -0.001px !important;
+        margin-left: 72% !important;
+        max-width: 1% !important;
+        border-radius: 0px !important;
+        text-align: left !important;
+        background-size: 0% !important;
+    }
+    .posicion-header-two{
+        margin-left: 99% !important;
+        margin-top: -30% !important;
+        max-width: 1% !important;
+        border-radius: 0px !important;
+        text-align: left !important;
+        background-size: 0% !important;
+    }
+    
+}
+@media (min-width: 992px) { 
+    .Subtitle{
+        font-size: 220%;
+        color: white;
+    }
+    .posicion-2{
+        width: 200px;
+        top: 29%;
+        position: absolute;
+        left: 55%;
+    }
+    #posicion{
+        width: 53%;
+        position: absolute;
+        top: 25%;
+        text-align: end;
+    }
+    .iconos{
+        border-radius: 50%;
+        margin: 0.0001%;
+        width: 7.5%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background: transparent 0% !important;
+        border: 0px;
+    }
+    .size-posicion{
+        position: relative;
+        top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 44% !important;
+    }
+    .item-tracking{
+        margin-left: 0% !important;
+    }
+    
 }
 
 @media (min-width: 1200px){
@@ -125,16 +183,28 @@
         margin-right: auto;
         margin-left: 44% !important;
     }
+    .item-tracking{
+        margin-left: 0% !important;
+    }
+    
+    .direccion{
+        margin-right: 0% !important;
+    }
     .posicion-header{
+        margin-top: -0.001px !important;
         margin-left: 79% !important;
-        margin-top: 5%;
         max-width: 1% !important;
         border-radius: 0px !important;
         text-align: left !important;
         background-size: 0% !important;
     }
-    .item-tracking{
-        margin-left: 0% !important;
+    .posicion-header-two{
+        margin-left: 99% !important;
+        margin-top: -30% !important;
+        max-width: 1% !important;
+        border-radius: 0px !important;
+        text-align: left !important;
+        background-size: 0% !important;
     }
 }
 .sombreado{
@@ -149,22 +219,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-left: 40%;
-}
-.posicion-header{
-    margin-top: -0.001px !important;
-    margin-left: 79% !important;
-    max-width: 1% !important;
-    border-radius: 0px !important;
-    text-align: left !important;
-    background-size: 0% !important;
-}
-.posicion-header-two{
-    margin-left: 99% !important;
-    margin-top: -30% !important;
-    max-width: 1% !important;
-    border-radius: 0px !important;
-    text-align: left !important;
-    background-size: 0% !important;
 }
 .item-tracking{
     margin-left: 0% !important;
