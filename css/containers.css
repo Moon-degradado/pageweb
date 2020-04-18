@@ -1,13 +1,15 @@
 .iconos{
     border-radius: 50%;
-    margin: 02%;
+    margin: 0.5%;
     width: 10%;
     padding-left: 2%;
     padding-right: 2%;
-    
+    background: transparent 0% !important;
+    border: 0px;
 }
 
 .img{
     max-width: 150%;
     margin-left: -25%;
+    
 }
