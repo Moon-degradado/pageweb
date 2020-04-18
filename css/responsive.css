@@ -7,7 +7,7 @@
         width: 53%;
         position: absolute;
         top: 25%;
-        text-align: start;
+        text-align: start !important;
     }
     .posicion-2{
         width: 200px;
@@ -20,17 +20,10 @@
         color: white;
     }
 }
-
 @media (orientation:landscape){
     .Subtitle{
         font-size: 139%;
         color: white;
-    }
-    #posicion{
-        width: 53%;
-        position: absolute;
-        top: 25%;
-        text-align: end;
     }
     .posicion-2{
         width: 200px;
@@ -38,18 +31,16 @@
         position: absolute;
         left: 53%;
     }
+    #nav-color{
+        background-color: transparent;
+        color: white;
+    }
     
 }
 @media (min-width: 768px) { 
     .Subtitle{
         font-size: 200%;
         color: white;
-    }
-    #posicion{
-        width: 53%;
-        position: absolute;
-        top: 25%;
-        text-align: end;
     }
     .posicion-2{
         width: 200px;
@@ -64,12 +55,6 @@
         font-size: 220%;
         color: white;
     }
-    #posicion{
-        width: 53%;
-        position: absolute;
-        top: 25%;
-        text-align: end;
-    }
     .posicion-2{
         width: 200px;
         top: 29%;
@@ -77,4 +62,15 @@
         left: 55%;
     }
 }
-
+.sombreado{
+    position: relative;
+    bottom: 17% !important;
+    background-color: #00000026;
+    height: 17%;
+}
+#posicion{
+    width: 53%;
+    position: absolute;
+    top: 25%;
+    text-align: end;
+}
