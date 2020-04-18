@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="utf-8" />
+        <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
@@ -13,14 +13,22 @@
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
         <!-- Third party plugin CSS-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+
+         <!-- Containers -->
+        <link rel="stylesheet" href="css/containers.css">
+        <link rel="stylesheet" href="css/responsive.css">
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet"/>
+        <!-- Core theme Materialize CSS (includes Materialize)-->
+        <!-- <link rel="stylesheet" href="css/materialize.css">
+        <link rel="stylesheet" href="css/materialize.min.css"> -->
 
         <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     </head>
     <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <div class="container-ajust">
+             <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 color-nav" id="mainNav">
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">LOGO</a>
                     <button style="border-style: none;" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,25 +78,16 @@
                 </div>
             </div>
 
-            <div class="mb-0" style="
+            <div class="mb-0" class="sombreado right-align"  style="
                 position: relative;
-                bottom: 115px !important;
+                bottom: 17% !important;
                 background-color: #00000026;
-                height: 115px;
+                height: 17%;
             ">
-                <div style="
-                    width: 53%;
-                    position: absolute;
-                    top: 25%;
-                    text-align: end;
-                ">
-                    <p style="
-                        font-size: 35px;
-                        color: white;
-                        /* width: 50% !important; */
-                    ">SOMOS UNA EMPRESA DEL</p>
+                <div class="container-fluid" id="posicion">
+                <p class="Subtitle a">SOMOS UNA EMPRESA DEL</p>
                 </div>
-                <img src="assets/img/grupoyga.png" style="width: 200px;top: 29%;position: absolute;left: 55%;">
+                <img src="assets/img/grupoyga.png" class="posicion-2">
             </div>
             
         </header>
@@ -100,69 +99,65 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-11 text-center">
-                        <h2 class=" mt-0" style="
-    margin-bottom: 40px;
-">Contáctanos</h2>
+                        <h2 class=" mt-0" style="margin-bottom: 6%;">Contáctanos</h2>
 
                         <div class="container">
-                            <div class="row" style="
-    margin-bottom: 10px;
-">
-                              <div class="col-sm">
-                                <input type="text" class="form-control" id="inombre" aria-describedby="emailHelp" placeholder="Nombre" style="
-                                    background-color: #dee0e2;
-                                    height: 45px;
-                                ">
-                              </div>
-                              <div class="col-sm">
-                                <input type="email" class="form-control" id="iemail" aria-describedby="emailHelp" placeholder="Email" style="
-                                    background-color: #dee0e2;
-                                    height: 45px;
-                                ">
-                              </div>
-                              <div class="col-sm">
-                                <input type="text" class="form-control" id="itel" aria-describedby="emailHelp" placeholder="Telefono" style="
-                                    background-color: #dee0e2;
-                                    height: 45px;
-                                ">
-                              </div>
-                            </div>
-                            <div class="row" style="
-    margin-bottom: 10px;
-">
-                                <div class="col-sm">
-                                  <input type="text" class="form-control" id="inombre" aria-describedby="emailHelp" placeholder="Ciudad" style="
-                                      background-color: #dee0e2;
-                                      height: 45px;
-                                  ">
+                            <form action="" method="post">
+                                <div class="row">
+                                    <div class="col-sm" style="margin-bottom: 1%;">
+                                      <input type="text" class="form-control" id="inombre" aria-describedby="emailHelp" placeholder="Nombre" style="
+                                          background-color: #dee0e2;
+                                          height: 45px;
+                                          border-radius: 4px;
+                                      ">
+                                    </div>
+                                    <div class="col-sm" style="margin-bottom: 1%;" >
+                                      <input type="email" class="form-control" id="iemail" aria-describedby="emailHelp" placeholder="Email" style="
+                                          background-color: #dee0e2;
+                                          height: 45px;
+                                      ">
+                                        </div>
+                                    <div class="col-sm" style="margin-bottom: 1%;">
+                                        <input type="text" class="form-control" id="itel" aria-describedby="emailHelp" placeholder="Telefono" style="
+                                          background-color: #dee0e2;
+                                          height: 45px;
+                                      ">
+                                    </div>
                                 </div>
-                                <div class="col-sm">
-                                  <input type="email" class="form-control" id="iempresa" aria-describedby="emailHelp" placeholder="Empresa" style="
-                                      background-color: #dee0e2;
-                                      height: 45px;
-                                  ">
+                                <div class="row" style="margin-bottom: 1%;">
+                                      <div class="col-sm" style="margin-bottom: 1%;">
+                                        <input type="text" class="form-control" id="inombre" aria-describedby="emailHelp" placeholder="Ciudad" style="
+                                            background-color: #dee0e2;
+                                            height: 45px;
+                                        ">
+                                      </div>
+                                      <div class="col-sm" style="margin-bottom: 1%;">
+                                        <input type="email" class="form-control" id="iempresa" aria-describedby="emailHelp" placeholder="Empresa" style="
+                                            background-color: #dee0e2;
+                                            height: 45px;
+                                        ">
+                                      </div>
+                                      <div class="col-sm" style="margin-bottom: 1%;">
+                                        <input type="text" class="form-control" id="igiro" aria-describedby="emailHelp" placeholder="Giro" style="
+                                            background-color: #dee0e2;
+                                            height: 45px;
+                                        ">
+                                      </div>
                                 </div>
-                                <div class="col-sm">
-                                  <input type="text" class="form-control" id="igiro" aria-describedby="emailHelp" placeholder="Giro" style="
-                                      background-color: #dee0e2;
-                                      height: 45px;
-                                  ">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm">
-                                  <input type="text" class="form-control" id="imensaje" aria-describedby="emensaje" placeholder="Mensaje" style="
-                                      background-color: #dee0e2;
-                                      height: 45px;
-                                  ">
-                                </div>
-                            </div>
-
+                                    <div class="row" style="margin-top: -0.7%;">
+                                      <div class="col-sm">
+                                        <input type="text" class="form-control" id="imensaje" aria-describedby="emensaje" placeholder="Mensaje" style="
+                                            background-color: #dee0e2;
+                                            height: 45px;
+                                        ">
+                                      </div>
+                                    </div>
+                            </form>
                         </div>
 
-                        <a class="btn btn-light btn-xl js-scroll-trigger" href="#services" style="
+                        <a class="btn btn-light btn-xl js-scroll-trigger color_button" href="#services" style="
                             background-color: #be7dff;
-                            border-radius: 15px;
+                            border-radius: 6px;
                             width: 180px;
                             color: white;
                             font-size: 17px;
@@ -303,7 +298,7 @@
                     border-radius: 50%;
                     margin: 10px;
                 ">
-                    <img src="ass">
+                    <img src="assets/img/" style="">
                 </button>
                 <button type="button" class="btn btn-secondary" style="
                     border-radius: 50%;
@@ -316,6 +311,7 @@
             </div>
 
         </section>
+        </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
@@ -324,5 +320,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <!-- Materialize Theme JS -->
+        <!-- <script src="js/materialize.js"></script>
+        <script src="js/materialize.min.js"></script> -->
     </body>
 </html>

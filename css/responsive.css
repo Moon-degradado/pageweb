@@ -1,0 +1,80 @@
+@media (max-width: 576px){
+    .Subtitle{
+        font-size: 120%; 
+        color: white;
+    }
+    #posicion{
+        width: 53%;
+        position: absolute;
+        top: 25%;
+        text-align: start;
+    }
+    .posicion-2{
+        width: 200px;
+        top: 29%;
+        position: absolute;
+        left: 44%;
+    }
+    .color-nav{
+        background-color: brown;
+    }
+}
+
+@media (orientation:landscape){
+    .Subtitle{
+        font-size: 139%;
+        color: white;
+    }
+    #posicion{
+        width: 53%;
+        position: absolute;
+        top: 25%;
+        text-align: end;
+    }
+    .posicion-2{
+        width: 200px;
+        top: 29%;
+        position: absolute;
+        left: 53%;
+    }
+    
+}
+@media (min-width: 768px) { 
+    .Subtitle{
+        font-size: 200%;
+        color: white;
+    }
+    #posicion{
+        width: 53%;
+        position: absolute;
+        top: 25%;
+        text-align: end;
+    }
+    .posicion-2{
+        width: 200px;
+        top: 29%;
+        position: absolute;
+        left: 55%;
+    }
+}
+
+@media (min-width: 1200px){
+    .Subtitle{
+        font-size: 220%;
+        color: white;
+    }
+    #posicion{
+        width: 53%;
+        position: absolute;
+        top: 25%;
+        text-align: end;
+    }
+    .posicion-2{
+        width: 200px;
+        top: 29%;
+        position: absolute;
+        left: 55%;
+    }
+}
+
+
