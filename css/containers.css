@@ -6,10 +6,10 @@
     padding-right: 2%;
     background: transparent 0% !important;
     border: 0px;
+    align-items: center;
 }
 
 .img{
     max-width: 150%;
-    margin-left: -25%;
-    
+    /* margin-left: -25%;  */
 }
