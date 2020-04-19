@@ -23,6 +23,7 @@
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
+    
   });
 
   // Activate scrollspy to add active class to navbar items on scroll
@@ -31,8 +32,12 @@
     offset: 75
   });
 
+  //Activate Color white
+
   // Collapse Navbar
   var navbarCollapse = function() {
+    
+    
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-scrolled");
       $("#color-menu").addClass("navbar-toggler-icon-oscuro");
@@ -42,8 +47,9 @@
       $("#color-menu").removeClass("navbar-toggler-icon-oscuro");
       $("#color-menu").addClass("navbar-toggler-icon-white");
     }
+
+    
   };
-  //Color Menu Responsive
   
   // Collapse now if page is not at top
   navbarCollapse();

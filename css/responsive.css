@@ -1,3 +1,4 @@
+/* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px){
     .Subtitle{
         font-size: 120%; 
@@ -13,7 +14,7 @@
         width: 200px;
         top: 29%;
         position: absolute;
-        left: 44%;
+        left: 50%;
     }
     #posicion{
         width: 53%;
@@ -41,7 +42,34 @@
         margin-right: auto;
         margin-left: 25% !important;
     }
+    .item-responsive-two{
+        display: none;
+        text-align: left !important;
+    }
+    
+    .align-responsive{
+        color: #000;        
+        margin-left: 10%;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .align-responsive-2{
+        color: #000;        
+        margin-top: 0%;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .align-responsive:hover,.align-responsive-2:hover{
+        color: #F4623A;
+    }
+    .reajuste{
+        /* margin-top: 65%; 
+        margin-left: -245%; */
+        margin-top: 40%;
+        margin-left: -120%;
+    }
 }
+/* Small devices (landscape phones, 576px and up) rotate 180 */
 @media (orientation:landscape){
     .Subtitle{
         font-size: 139%;
@@ -73,7 +101,17 @@
         margin-right: auto;
         margin-left: 25% !important;
     }
+    .item-responsive-two{
+        display: none;
+    }
+    .align-responsive{
+
+    }
+    .align-responsive:hover{
+        color: #F4623A;
+    }
 }
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     .Subtitle{
         font-size: 200%;
@@ -109,8 +147,34 @@
         text-align: left !important;
         background-size: 0% !important;
     }
+    .item-responsive-two{
+        display: none !important;
+        text-align: left !important;
+    }
+    .align-responsive{
+        color: #000;        
+        margin-left: 10%;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .align-responsive-2{
+        color: #000;        
+        margin-top: 0%;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .align-responsive:hover,.align-responsive-2:hover{
+        color: #F4623A;
+    }
+    .reajuste{
+        margin-top: 40%; 
+        margin-left: -250%;
+        /* margin-top: 40%;
+        margin-left: -120%; */
+    }
     
 }
+/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     .Subtitle{
         font-size: 220%;
@@ -147,9 +211,33 @@
     .item-tracking{
         margin-left: 0% !important;
     }
-    
+    .direccion{
+        margin-right: 15% !important;
+    }
+    .posicion-header{
+        margin-top: -0.5px !important;
+        margin-left: 71% !important;
+        max-width: 1% !important;
+        border-radius: 0px !important;
+        text-align: left !important;
+        background-size: 0% !important;
+    }
+    .posicion-header-two{
+        margin-left: 99% !important;
+        margin-top: -30% !important;
+        max-width: 1% !important;
+        border-radius: 0px !important;
+        text-align: left !important;
+        background-size: 0% !important;
+    }
+    .item-responsive{
+        display: none !important;
+    }
+    .item-responsive-two{
+        display: flex !important;
+    }
 }
-
+/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px){
     .Subtitle{
         font-size: 220%;
@@ -188,11 +276,11 @@
     }
     
     .direccion{
-        margin-right: 0% !important;
+        margin-right: 8% !important;
     }
     .posicion-header{
-        margin-top: -0.001px !important;
-        margin-left: 79% !important;
+        margin-top: -0.5px !important;
+        margin-left: 76.5% !important;
         max-width: 1% !important;
         border-radius: 0px !important;
         text-align: left !important;
@@ -207,6 +295,7 @@
         background-size: 0% !important;
     }
 }
+/* General */
 .sombreado{
     position: relative;
     bottom: 17% !important;

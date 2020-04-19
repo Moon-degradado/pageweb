@@ -10171,6 +10171,18 @@ hr.light {
     color: #f4623a;
   }
 }
+/* Acomodo de imagen */
+@media (max-width: 576px){
+  .top-menu{
+    margin-top: 5%;
+  }
+}
+@media (min-width: 768px){
+  .top-menu{
+    margin-top: 5%;
+  }
+  
+}
 
 header.masthead {
   padding-top: 10rem;
