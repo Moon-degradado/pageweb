@@ -15,7 +15,7 @@
         width: 200px;
         top: 29%;
         position: absolute;
-        left: 50% !important;
+        left: 44% !important;
     }
     #nav-color{
         background-color: transparent;
@@ -61,7 +61,7 @@
         /* margin-top: 65%; 
         margin-left: -245%; */
         margin-top: 40%;
-        margin-left: -70%;
+        margin-left: -50%;
     }
 }
 /* Small devices (landscape phones, 576px and up) rotate 180 */
