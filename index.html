@@ -186,25 +186,24 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-11 text-center">
                         <h2 class=" mt-0" style="margin-bottom: 6%;">Contáctanos</h2>
-
                         <div class="container">
-                            <form action="" method="post">
+                            <form action="php/envio_respuesta.php" method="POST">
                                 <div class="row">
                                     <div class="col-sm" style="margin-bottom: 1%;">
-                                      <input type="text" class="form-control" id="inombre" aria-describedby="emailHelp" placeholder="Nombre" style="
+                                      <input type="text" class="form-control" name="nombre" id="inombre" aria-describedby="emailHelp" placeholder="Nombre" style="
                                           background-color: #dee0e2;
                                           height: 45px;
                                           border-radius: 4px;
                                       ">
                                     </div>
                                     <div class="col-sm" style="margin-bottom: 1%;" >
-                                      <input type="email" class="form-control" id="iemail" aria-describedby="emailHelp" placeholder="Email" style="
+                                      <input type="email" class="form-control" name="email" id="iemail" aria-describedby="emailHelp" placeholder="Email" style="
                                           background-color: #dee0e2;
                                           height: 45px;
                                       ">
                                         </div>
                                     <div class="col-sm" style="margin-bottom: 1%;">
-                                        <input type="text" class="form-control" id="itel" aria-describedby="emailHelp" placeholder="Telefono" style="
+                                        <input type="text" class="form-control" name="telefono" id="itel" aria-describedby="emailHelp" placeholder="Telefono" style="
                                           background-color: #dee0e2;
                                           height: 45px;
                                       ">
@@ -212,19 +211,19 @@
                                 </div>
                                 <div class="row" style="margin-bottom: 1%;">
                                       <div class="col-sm" style="margin-bottom: 1%;">
-                                        <input type="text" class="form-control" id="inombre" aria-describedby="emailHelp" placeholder="Ciudad" style="
+                                        <input type="text" class="form-control" name="ciudad" id="inombre" aria-describedby="emailHelp" placeholder="Ciudad" style="
                                             background-color: #dee0e2;
                                             height: 45px;
                                         ">
                                       </div>
                                       <div class="col-sm" style="margin-bottom: 1%;">
-                                        <input type="email" class="form-control" id="iempresa" aria-describedby="emailHelp" placeholder="Empresa" style="
+                                        <input type="email" class="form-control" name="empresa" id="iempresa" aria-describedby="emailHelp" placeholder="Empresa" style="
                                             background-color: #dee0e2;
                                             height: 45px;
                                         ">
                                       </div>
                                       <div class="col-sm" style="margin-bottom: 1%;">
-                                        <input type="text" class="form-control" id="igiro" aria-describedby="emailHelp" placeholder="Giro" style="
+                                        <input type="text" class="form-control" name="giro" id="igiro" aria-describedby="emailHelp" placeholder="Giro" style="
                                             background-color: #dee0e2;
                                             height: 45px;
                                         ">
@@ -232,7 +231,7 @@
                                 </div>
                                     <div class="row" style="margin-top: -0.7%;">
                                       <div class="col-sm">
-                                        <input type="text" class="form-control" id="imensaje" aria-describedby="emensaje" placeholder="Mensaje" style="
+                                        <input type="text" class="form-control" name="mensaje" id="imensaje" aria-describedby="emensaje" placeholder="Mensaje" style="
                                             background-color: #dee0e2;
                                             height: 45px;
                                         ">
@@ -241,16 +240,11 @@
                             </form>
                         </div>
 
-                        <a class="btn btn-light btn-xl js-scroll-trigger color_button" href="#services" style="
-                            background-color: #be7dff;
-                            border-radius: 6px;
-                            width: 180px;
-                            color: white;
-                            font-size: 17px;
-                            font-weight: 400;
-                            margin-top: 30px;
-                        ">ENVIAR
+                        <input type="submit" value="enviar" class="btn btn-light btn-xl js-scroll-trigger color-enviar color_button" href="#services">
+                        
                         </a>
+                        
+                    </form>
                     </div>
                 </div>
             </div>
