@@ -63,6 +63,11 @@
         margin-top: 40%;
         margin-left: -50%;
     }
+    .color-yga{
+        margin-top: 13%;
+        background-color: #514563 !important;
+        padding: 7% 0 !important;
+    }
 }
 /* Small devices (landscape phones, 576px and up) rotate 180 */
 @media (orientation:landscape){
