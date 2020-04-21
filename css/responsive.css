@@ -289,6 +289,9 @@
         text-align: left !important;
         background-size: 0% !important;
     }
+    .color-navbar{
+        color: #ae9aca !important;
+    }
 }
 /* General */
 .sombreado{
@@ -306,4 +309,12 @@
 }
 .item-tracking{
     margin-left: 0% !important;
+}
+.color-yga{
+    background-color: #514563 !important;
+    padding: 7% 0 !important;
+}
+
+.color-p{
+    color: white;
 }
