@@ -319,7 +319,20 @@
     background-color: #514563 !important;
     padding: 7% 0 !important;
 }
+.color-yga-2{
+    background-color: #fff !important;
+    padding: 7% 0 !important;
+    font-size: 150%;
+}
+
+.img-tracking{
+    width: 50% !important;
+    margin-left: 50%;
+    margin-top: -20%;
+}
 
 .color-p{
     color: white;
 }
+
+

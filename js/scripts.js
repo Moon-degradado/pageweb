@@ -49,6 +49,9 @@
     }
 
   };
+
+  //
+  
   
   // Collapse now if page is not at top
   navbarCollapse();
