@@ -1,116 +1,3 @@
-/* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px){
-    .Subtitle{
-        font-size: 120%; 
-        color: white;
-    }
-    #posicion{
-        width: 53%;
-        position: absolute;
-        top: 25%;
-        text-align: star !important;
-        left: 3%;
-    }
-    .posicion-2{
-        width: 200px;
-        top: 29%;
-        position: absolute;
-        left: 44% !important;
-    }
-    #nav-color{
-        background-color: transparent;
-        color: white;
-    }
-    .iconos{
-        border-radius: 50%;
-        margin: 3%;
-        width: 15%;
-        padding-left: 2%;
-        padding-right: 2%;
-        background: transparent 0% !important;
-        border: 0px;
-    }
-    .size-posicion{
-        position: relative;
-        top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-left: 24% !important;
-    }
-    .item-responsive-two{
-        display: none;
-        text-align: left !important;
-    }
-    
-    .align-responsive{
-        color: #000;        
-        margin-left: 10%;
-        font-weight: bold;
-        cursor: pointer;
-    }
-    .align-responsive-2{
-        color: #000;        
-        margin-top: 0%;
-        font-weight: bold;
-        cursor: pointer;
-    }
-    .align-responsive:hover,.align-responsive-2:hover{
-        color: #F4623A;
-    }
-    .reajuste{
-        /* margin-top: 65%; 
-        margin-left: -245%; */
-        margin-top: 40%;
-        margin-left: -50%;
-    }
-    .color-yga{
-        margin-top: 13%;
-        background-color: #514563 !important;
-        padding: 7% 0 !important;
-    }
-}
-/* Small devices (landscape phones, 576px and up) rotate 180 */
-@media (orientation:landscape){
-    .Subtitle{
-        font-size: 139%;
-        color: white;
-    }
-    .posicion-2{
-        width: 200px;
-        top: 29%;
-        position: absolute;
-        left: 53%;
-    }
-    #nav-color{
-        background-color: transparent !important;
-        color: white;
-    }
-    .iconos{
-        border-radius: 50%;
-        margin: 3%;
-        width: 15%;
-        padding-left: 2%;
-        padding-right: 2%;
-        background: transparent 0% !important;
-        border: 0px;
-    }
-    .size-posicion{
-        position: relative;
-        top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-left: 25% !important;
-    }
-    .item-responsive-two{
-        display: none;
-    }
-    .align-responsive{
-
-    }
-    .align-responsive:hover{
-        color: #F4623A;
-    }
-}
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     .Subtitle{
@@ -297,7 +184,31 @@
     .color-navbar{
         color: #ae9aca !important;
     }
+    .etiq-question{
+        margin-left: 6% !important;
+        max-width: 90% !important;
+        height: auto !important;
+    }
+    .posicion-letter{
+        margin-left: -1.4% !important;
+    }
+    .img-tracking{
+        width: 50% !important;
+        margin-left: 43%;
+        margin-top: -30%;
+    }
+
+    .que-es-info{
+        margin-top: 9% !important; 
+        margin-bottom: -4% !important;
+    }
+    .color-yga-2{
+        background-color: #fff !important;
+        padding: 7% 0 !important;
+        font-size: 140%;
+    }
 }
+
 /* General */
 .sombreado{
     position: relative;
@@ -318,17 +229,6 @@
 .color-yga{
     background-color: #514563 !important;
     padding: 7% 0 !important;
-}
-.color-yga-2{
-    background-color: #fff !important;
-    padding: 7% 0 !important;
-    font-size: 140%;
-}
-
-.img-tracking{
-    width: 50% !important;
-    margin-left: 43%;
-    margin-top: -30%;
 }
 
 .color-p{

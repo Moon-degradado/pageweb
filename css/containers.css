@@ -41,3 +41,9 @@
     margin-bottom: -40%;
     margin-top: -10%;
 }
+.linea{
+    margin-left: 0.2% !important; 
+    border: #BC7DFF 3px solid !important; 
+    border-radius: 4px !important; 
+    max-width: 9.25rem !important;
+}
