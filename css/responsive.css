@@ -309,6 +309,11 @@
         margin-left: 5%;
         width: 150%;
     }
+    .img-tracking-5{
+        width: 25% !important;
+        margin-left: 12%;
+        margin-top: 6%;
+    }
 }
 
 /* General */
@@ -342,3 +347,6 @@
 .lista-2{list-style-type: none;}
 .lista-2 > li { color: black; } 
 .lista-2 > li > span { color: black; font-size: medium; font-weight: 500}
+.lista-3{list-style-type: disc; margin-top: 10%;}
+.lista-3 > li { color: #ae9aca; } 
+.lista-3 > li > span { color: black; font-size: medium; font-weight: 500} 

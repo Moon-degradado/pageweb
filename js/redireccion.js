@@ -29,4 +29,7 @@ window.onload = function() {
     document.getElementById('reportes').onclick = function () {
         window.location = "Reportes.html";
     }
+    document.getElementById('visualizacion').onclick = function () {
+        window.location = "Visualizacion.html";
+    }
 }
