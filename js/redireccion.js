@@ -14,4 +14,7 @@ window.onload = function() {
     document.getElementById('evidencia').onclick = function () {
         window.location = "Evidencia.html";
     }
+    document.getElementById('incidencias').onclick = function () {
+        window.location = "Incidencias.html";
+    }
 }
