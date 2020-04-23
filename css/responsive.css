@@ -207,6 +207,43 @@
         padding: 7% 0 !important;
         font-size: 140%;
     }
+    .block-right{
+
+    }
+    .block-left{
+        margin-left: 50%;
+    }
+    .block-top{
+        margin-top: -66%;
+    }
+    #b-right{
+        margin-left: 5%;
+    }
+    #b-left{
+        margin-left: 15%;
+    }
+    .block-icon-beneficios{
+        margin-right: -45%; 
+        margin-top: -5%;
+    }
+    .beneficios-icon{
+        width: 35%;
+    }
+    .file{
+        margin-top: 5%;
+    }
+    .money{
+        margin-top: -160%;
+    }
+    .time{
+        margin-top: -90%;
+    }
+    .check-list{
+        margin-top: -5%;
+    }
+    .money,.time,.check-list{
+        margin-left: -40%;
+    }
 }
 
 /* General */

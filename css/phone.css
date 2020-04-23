@@ -85,6 +85,9 @@
         padding: 7% 0 !important;
         font-size: 140%;
     }
+    .beneficios-icon{
+        margin: 5% 0%;
+    }
 }
 /* Small devices (landscape phones, 576px and up) rotate 180 */
 @media (orientation:landscape){
@@ -121,9 +124,9 @@
     .item-responsive-two{
         display: none;
     }
-    .align-responsive{
+    /* .align-responsive{
 
-    }
+    } */
     .align-responsive:hover{
         color: #F4623A;
     }
