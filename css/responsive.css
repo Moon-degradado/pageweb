@@ -123,6 +123,9 @@
     .item-responsive-two{
         display: flex !important;
     }
+    #b-top{
+        margin-top: 5% !important;
+    }
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px){
@@ -220,14 +223,14 @@
         margin-left: 5%;
     }
     #b-left{
-        margin-left: 15%;
+        margin-left: 10.8%;
     }
     #b-top{
         margin-top: 5% !important;
     }
     .block-icon-beneficios{
         margin-right: -45%; 
-        margin-top: -5%;
+        margin-top: -4%;
     }
     .beneficios-icon{
         width: 35%;
@@ -246,6 +249,29 @@
     }
     .money,.time,.check-list{
         margin-left: -40%;
+    }
+    .color-yga-3{
+        background-color: #fff !important;
+        padding: 7% 0 !important;
+        font-size: 140%;
+        margin-top: 5%;
+        margin-bottom: -7%;
+    }
+    .que-es-info-2{
+        margin-top: 1.5% !important; 
+        margin-bottom: -4% !important;
+    }
+    .img-tracking-2{
+        width: 50% !important;
+        margin-left: 43%;
+        margin-top: -20%;
+    }
+    .left-info{
+        margin-right: 54% !important;
+
+    }
+    .info-2{
+        margin-top: -26%;
     }
 }
 
