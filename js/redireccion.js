@@ -11,4 +11,7 @@ window.onload = function() {
     document.getElementById('scorecard').onclick = function () {
         window.location = "Scorecard.html";
     }
+    document.getElementById('evidencia').onclick = function () {
+        window.location = "Evidencia.html";
+    }
 }
