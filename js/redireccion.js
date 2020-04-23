@@ -5,4 +5,7 @@ window.onload = function() {
     document.getElementById('Beneficios').onclick = function () {
         window.location = "Beneficios.html";
     }
+    document.getElementById('funcionamiento').onclick = function () {
+        window.location = "Funcionamiento.html";
+    }
 }

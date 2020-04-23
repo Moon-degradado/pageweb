@@ -239,7 +239,7 @@
         margin-top: 5%;
     }
     .money{
-        margin-top: -160%;
+        margin-top: -163%;
     }
     .time{
         margin-top: -90%;
@@ -273,6 +273,16 @@
     .info-2{
         margin-top: -26%;
     }
+    .img-tracking-3{
+        width: 25% !important;
+        margin-left: 12%;
+        margin-top: 0%;
+    }
+    .info-3{
+        margin-top: -28.5%;
+        margin-left: 50% !important;
+        color: #ae9aca;
+    }
 }
 
 /* General */
@@ -300,5 +310,6 @@
 .color-p{
     color: white;
 }
-
-
+.lista-1{list-style-type: disc;}
+.lista-1 > li { color: #ae9aca; } 
+.lista-1 > li > span { color: black; font-size: medium; font-weight: 500; }
