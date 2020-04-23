@@ -8,6 +8,9 @@ window.onload = function() {
     document.getElementById('funcionamiento').onclick = function () {
         window.location = "Funcionamiento.html";
     }
+    document.getElementById('herramientas').onclick = function () {
+        window.location = "Herramientas.html";
+    }
     document.getElementById('scorecard').onclick = function () {
         window.location = "Scorecard.html";
     }
@@ -16,5 +19,8 @@ window.onload = function() {
     }
     document.getElementById('incidencias').onclick = function () {
         window.location = "Incidencias.html";
+    }
+    document.getElementById('geocercas').onclick = function () {
+        window.location = "GeocercasGeorutas.html";
     }
 }
