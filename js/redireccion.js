@@ -23,4 +23,7 @@ window.onload = function() {
     document.getElementById('geocercas').onclick = function () {
         window.location = "GeocercasGeorutas.html";
     }
+    document.getElementById('alertas').onclick = function () {
+        window.location = "Alertas.html";
+    }
 }
