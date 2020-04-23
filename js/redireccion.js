@@ -8,4 +8,7 @@ window.onload = function() {
     document.getElementById('funcionamiento').onclick = function () {
         window.location = "Funcionamiento.html";
     }
+    document.getElementById('scorecard').onclick = function () {
+        window.location = "Scorecard.html";
+    }
 }
