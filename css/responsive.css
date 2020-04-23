@@ -222,6 +222,9 @@
     #b-left{
         margin-left: 15%;
     }
+    #b-top{
+        margin-top: 5% !important;
+    }
     .block-icon-beneficios{
         margin-right: -45%; 
         margin-top: -5%;
