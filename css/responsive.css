@@ -288,6 +288,27 @@
         margin-left: 12%;
         margin-top: 0%;
     }
+    .info-4{
+        margin-top: -40.5%;
+        margin-bottom: 20%;
+        margin-left: 50% !important;
+        color: #ae9aca;
+    }
+    .num{
+        margin-left: -10%;
+        margin-right: 99%;
+        padding: 2% #ae9aca;
+        background-color: #ae9aca;
+        border-radius: 20px;
+        text-align: center;
+        color: white;
+    }
+    .format-reportes{
+        font-weight: 100 !important; 
+        margin-top: -12%;
+        margin-left: 5%;
+        width: 150%;
+    }
 }
 
 /* General */
@@ -318,3 +339,6 @@
 .lista-1{list-style-type: disc;}
 .lista-1 > li { color: #ae9aca; } 
 .lista-1 > li > span { color: black; font-size: medium; font-weight: 500; }
+.lista-2{list-style-type: none;}
+.lista-2 > li { color: black; } 
+.lista-2 > li > span { color: black; font-size: medium; font-weight: 500}

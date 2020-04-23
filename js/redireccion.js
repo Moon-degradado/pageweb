@@ -26,4 +26,7 @@ window.onload = function() {
     document.getElementById('alertas').onclick = function () {
         window.location = "Alertas.html";
     }
+    document.getElementById('reportes').onclick = function () {
+        window.location = "Reportes.html";
+    }
 }
