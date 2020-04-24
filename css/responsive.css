@@ -1,6 +1,22 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    
+    #mainNav.navbar-scrolled {
+        /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); */
+        background-color: #fff !important;
+      }
+      
+      #mainNav.navbar-scrolled .navbar-brand {
+        color: #212529 !important;
+      }
+      #mainNav.navbar-scrolled .navbar-brand:hover {
+        color: #f4623a !important;
+      }
+      #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
+        color: #212529 !important;
+      }
+      #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
+        color: #f4623a !important;
+      }
     .Subtitle{
         font-size: 200%;
         color: white;

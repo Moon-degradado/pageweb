@@ -4,10 +4,6 @@
   
     // Collapse Navbar
     var navbarCollapse = function() {
-      
-      
-     
-  
       if  ($("#mainNav").offset().top == 0) {
         $("#mainNav").addClass("navbar-scrolled");
         $("#color-menu").addClass("navbar-toggler-icon-oscuro");

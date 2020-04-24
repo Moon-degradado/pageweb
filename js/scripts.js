@@ -40,7 +40,7 @@
     
     //document.getElementById('#mainNav').onload = function(){
         
-        if (($("#mainNav").offset().top > 100) && (window.screen.width < 576)) {
+        if ($("#mainNav").offset().top > 100) {
           $("#mainNav").addClass("navbar-scrolled");
           $("#color-menu").addClass("navbar-toggler-icon-oscuro");
           $("#color-menu").removeClass("navbar-toggler-icon-white");
