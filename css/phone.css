@@ -1,5 +1,6 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px){
+    
     .Subtitle{
         font-size: 120%; 
         color: white;
@@ -15,7 +16,7 @@
         width: 200px;
         top: 29%;
         position: absolute;
-        left: 52% !important;
+        left: 44% !important;
     }
     #nav-color{
         background-color: transparent;

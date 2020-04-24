@@ -38,8 +38,9 @@
   var navbarCollapse = function() {
     
     
-    //document.getElementById('').onload = function(){
-      if ($("#mainNav").offset().top > 100) {
+    //document.getElementById('#mainNav').onload = function(){
+        
+        if (($("#mainNav").offset().top > 100) && (window.screen.width < 576)) {
           $("#mainNav").addClass("navbar-scrolled");
           $("#color-menu").addClass("navbar-toggler-icon-oscuro");
           $("#color-menu").removeClass("navbar-toggler-icon-white");
@@ -48,7 +49,7 @@
           $("#color-menu").removeClass("navbar-toggler-icon-oscuro");
           $("#color-menu").addClass("navbar-toggler-icon-white");
         }
-  //}
+    //}
 
   };
 

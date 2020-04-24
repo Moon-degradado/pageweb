@@ -1,5 +1,6 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+    
     .Subtitle{
         font-size: 200%;
         color: white;
@@ -209,9 +210,6 @@
         background-color: #fff !important;
         padding: 7% 0 !important;
         font-size: 140%;
-    }
-    .block-right{
-
     }
     .block-left{
         margin-left: 50%;
