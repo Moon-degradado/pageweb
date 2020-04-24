@@ -1,27 +1,27 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px){
     .tamano-contenedor{
-        margin-top: 16%;
+        margin-top: 16% !important;
     }
     .navbar-toggler-icon-oscuro,.navbar-toggler-icon-white{
       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
     }
     #mainNav.navbar-scrolled-2 {
         /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); */
-      background-color: #fff;
+      background-color: #fff !important;
     }
       
     #mainNav.navbar-scrolled-2 .navbar-brand {
-      color: #212529;
+      color: #212529 !important;
     }
     #mainNav.navbar-scrolled-2 .navbar-brand:hover {
-      color: #f4623a;
+      color: #BC7DFF !important;
     }
     #mainNav.navbar-scrolled-2 .navbar-nav .nav-item .nav-link {
-      color: #212529;
+      color: #212529 !important;
     }
     #mainNav.navbar-scrolled-2 .navbar-nav .nav-item .nav-link:hover {
-      color: #f4623a;
+      color: #BC7DFF !important;
     }
     .Subtitle{
         font-size: 120%; 
@@ -131,27 +131,27 @@
 /* Small devices (landscape phones, 576px and up) rotate 180 */
 @media (orientation:landscape){
     .tamano-contenedor{
-        margin-top: 16%;
+        margin-top: 16% !important;
     }
     .navbar-toggler-icon-oscuro,.navbar-toggler-icon-white{
       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
     }
     #mainNav.navbar-scrolled-2 {
         /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); */
-      background-color: #fff;
+      background-color: #fff !important;
     }
       
     #mainNav.navbar-scrolled-2 .navbar-brand {
-      color: #212529;
+      color: #212529 !important;
     }
     #mainNav.navbar-scrolled-2 .navbar-brand:hover {
-      color: #f4623a;
+      color: #f4623a !important;
     }
     #mainNav.navbar-scrolled-2 .navbar-nav .nav-item .nav-link {
-      color: #212529;
+      color: #212529 !important;
     }
     #mainNav.navbar-scrolled-2 .navbar-nav .nav-item .nav-link:hover {
-      color: #f4623a;
+      color: #f4623a !important;
     }
     .Subtitle{
         font-size: 139%;

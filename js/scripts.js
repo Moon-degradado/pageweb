@@ -42,10 +42,13 @@
         
         if ($("#mainNav").offset().top > 100) {
           $("#mainNav").addClass("navbar-scrolled");
+          $("#mainNav").removeClass("navbar-scrolled-2");
+          $("#mainNav").removeClass("navbar-scrolled-3");
           $("#color-menu").addClass("navbar-toggler-icon-oscuro");
           $("#color-menu").removeClass("navbar-toggler-icon-white");
         } else {
           $("#mainNav").removeClass("navbar-scrolled");
+          $("#mainNav").addClass("navbar-scrolled-2");
           $("#color-menu").removeClass("navbar-toggler-icon-oscuro");
           $("#color-menu").addClass("navbar-toggler-icon-white");
         }

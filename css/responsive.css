@@ -1,22 +1,9 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    #mainNav.navbar-scrolled {
-        /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); */
-        background-color: #fff !important;
-      }
-      
-      #mainNav.navbar-scrolled .navbar-brand {
-        color: #212529 !important;
-      }
-      #mainNav.navbar-scrolled .navbar-brand:hover {
-        color: #f4623a !important;
-      }
-      #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
-        color: #212529 !important;
-      }
-      #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-        color: #f4623a !important;
-      }
+    .tamano-contenedor{
+        margin-top: 0% !important;
+    }
+    
     .Subtitle{
         font-size: 200%;
         color: white;
@@ -80,6 +67,9 @@
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+    .tamano-contenedor{
+        margin-top: 0% !important;
+    }
     .Subtitle{
         font-size: 220%;
         color: white;
@@ -146,6 +136,42 @@
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px){
+    .tamano-contenedor{
+        margin-top: 0% !important;
+    }
+    #mainNav.navbar-scrolled-2 {
+        /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); */
+      background-color: rgba(0,0,0,0) !important;
+    }
+      
+    #mainNav.navbar-scrolled-2 .navbar-brand {
+      color: rgba(255,255,255,0.7) !important;
+    }
+    #mainNav.navbar-scrolled-2 .navbar-brand:hover {
+      color: #fff !important;
+    }
+    #mainNav.navbar-scrolled-2 .navbar-nav .nav-item .nav-link {
+      color: rgba(255,255,255,0.7) !important;
+    }
+    #mainNav.navbar-scrolled-2 .navbar-nav .nav-item .nav-link:hover {
+      color: #BC7DFF !important;
+    }
+    #mainNav.navbar-scrolled-3 {
+        /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); */
+      background-color: #fff !important;
+    }
+    #mainNav.navbar-scrolled-3 .navbar-brand {
+        color: #212529 !important;
+      }
+      #mainNav.navbar-scrolled-3 .navbar-brand:hover {
+        color: #BC7DFF !important;
+      }
+      #mainNav.navbar-scrolled-3 .navbar-nav .nav-item .nav-link {
+        color: #212529 !important;
+      }
+      #mainNav.navbar-scrolled-3 .navbar-nav .nav-item .nav-link:hover {
+        color: #BC7DFF !important;
+      }
     .Subtitle{
         font-size: 220%;
         color: white;
