@@ -130,7 +130,7 @@
     .chat-abierto{
         display:inline-block;
         width: 95%;
-        height: 85%;
+        height: 91%;
         background: #BC7DFF;
         color:#fff;
         position: fixed;
@@ -145,7 +145,7 @@
     .color-button-border{
         border: 1px solid #212529 !important;
         margin-left: -12% !important;
-        margin-top: 0% !important;
+        margin-top: 5% !important;
     }
 }
 /* Small devices (landscape phones, 576px and up) rotate 180 */

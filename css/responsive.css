@@ -137,6 +137,7 @@
         display:inline-block;
         /* movil */
         width: 30%;
+        height: 90%;
         /* movil */
         background: #BC7DFF;
         color:#fff;
@@ -152,8 +153,9 @@
     .color-button-border{
         border: 1px solid #212529 !important;
         margin-left: 10% !important;
-        margin-top: 0% !important;
+        margin-top: 5% !important;
     }
+
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px){
