@@ -390,3 +390,55 @@
 .lista-3{list-style-type: disc; margin-top: 10%;}
 .lista-3 > li { color: #ae9aca; } 
 .lista-3 > li > span { color: black; font-size: medium; font-weight: 500} 
+.ir-arriba {
+    padding:0% 5%;
+    display:inline-block;
+    background: #BC7DFF;
+    color:#fff;
+    position: fixed;
+    font-size:20px;
+    bottom:0%;
+    right: 2%;
+    border-radius: 5px;
+    cursor:pointer;
+    z-index: 1030;
+    cursor: pointer;
+}
+
+.ir-arriba:active{
+    color: #606060;
+}
+
+.chat-abierto{
+    display:inline-block;
+    /* movil */
+    width: 30%;
+    /* movil */
+    background: #BC7DFF;
+    color:#fff;
+    position: fixed;
+    font-size:20px;
+    bottom:0%;
+    right: 20%;
+    border-radius: 5px;
+    cursor:pointer;
+    z-index: 1030;
+    cursor: pointer;
+}
+
+#boton-enviar{
+    background-color: #BC7DFF;
+    width: 100%;
+    text-align: right;
+    border: 0;
+    color: white;
+}
+
+#boton-enviar::placeholder{
+    color:white;
+    font-weight: 400;
+}
+
+.chat-cerrado{
+    display: none;
+}

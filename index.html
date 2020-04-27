@@ -412,6 +412,27 @@
 
         </section>
         </div>
+        <!-- chat -->
+            
+        <!-- <div class="chat" data-toggle="collapse" href="#collapseExample">
+            <strong>Chat</strong>
+        </div> -->
+        <script>
+            $('#myCollapsible').collapse({
+                toggle: false
+            });
+        </script>
+        <span class="ir-arriba" data-toggle="collapse" href="#collapseExample">Chat</span>
+        
+        <div class="collapse chat-abierto" id="collapseExample" aria-expanded="false" aria-controls="collapseExample" id="myCollapsible">
+            <h3>Chat</h3>
+            <div class="card card-body" style="background-color: #be7dff;">
+              En un momento te esperaremos
+            </div>
+            <input type="text" name="mensaje" id="boton-enviar" placeholder="¿Ingrese una duda?">
+        </div>
+        <!-- JQUERY -->
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
@@ -422,6 +443,7 @@
         <script src="js/screen.js"></script>
         <script src="js/scripts.js"></script>
         <script src="js/redireccion.js"></script>
+        <script src="js/desplazamientoChat.js"></script>
         <!-- Materialize Theme JS -->
         <!-- <script src="js/materialize.js"></script>
         <script src="js/materialize.min.js"></script> -->
