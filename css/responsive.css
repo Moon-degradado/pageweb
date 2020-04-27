@@ -419,7 +419,7 @@
     position: fixed;
     font-size:20px;
     bottom:0%;
-    right: 20%;
+    right: 2%;
     border-radius: 5px;
     cursor:pointer;
     z-index: 1030;
@@ -439,6 +439,6 @@
     font-weight: 400;
 }
 
-.chat-cerrado{
-    display: none;
+.ir-arriba:active{
+    transition: all 1s;
 }

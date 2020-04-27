@@ -32,11 +32,7 @@ window.onload = function() {
     document.getElementById('visualizacion').onclick = function () {
         window.location = "Visualizacion.html";
     }
-    //document.getElementById('chat-cerrado').onclick = function () {
-    //    if ($("#chat-cerrado").offset().bottom == 0) {
-    //        $("#chat-cerrado").addClass(".chat-cerrado");
-    //    } else {
-    //        $("#chat-cerrado").removeClass(".chat-cerrado");
-    //    } 
-    //}
+    this.document.getElementById('#myCollapsible').onclick = function() {
+        $("#myCollapsible").addClass(".chat-cerrado");
+    }
 }
