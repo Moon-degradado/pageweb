@@ -133,6 +133,27 @@
     #b-top{
         margin-top: 5% !important;
     }
+    .chat-abierto{
+        display:inline-block;
+        /* movil */
+        width: 30%;
+        /* movil */
+        background: #BC7DFF;
+        color:#fff;
+        position: fixed;
+        font-size:20px;
+        bottom:0%;
+        right: 2%;
+        border-radius: 5px;
+        cursor:pointer;
+        z-index: 1030;
+        cursor: pointer;
+    }
+    .color-button-border{
+        border: 1px solid #212529 !important;
+        margin-left: 10% !important;
+        margin-top: 0% !important;
+    }
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px){
@@ -409,21 +430,9 @@
     color: #606060;
 }
 
-.chat-abierto{
-    display:inline-block;
-    /* movil */
-    width: 30%;
-    /* movil */
-    background: #BC7DFF;
-    color:#fff;
-    position: fixed;
-    font-size:20px;
-    bottom:0%;
-    right: 2%;
-    border-radius: 5px;
-    cursor:pointer;
-    z-index: 1030;
-    cursor: pointer;
+.color-button-border:hover{
+    background-color: #212529 !important;
+    color: #fff !important;
 }
 
 #boton-enviar{
@@ -441,4 +450,8 @@
 
 .ir-arriba:active{
     transition: all 1s;
+}
+
+.contorno{
+    border-radius: 5px !important;
 }

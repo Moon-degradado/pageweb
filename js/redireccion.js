@@ -32,7 +32,5 @@ window.onload = function() {
     document.getElementById('visualizacion').onclick = function () {
         window.location = "Visualizacion.html";
     }
-    this.document.getElementById('#myCollapsible').onclick = function() {
-        $("#myCollapsible").addClass(".chat-cerrado");
-    }
+    
 }
